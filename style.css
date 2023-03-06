@@ -1,0 +1,200 @@
+
+#heading2{
+    padding: 60px;
+    background: linear-gradient(to right,rgb(0, 250, 179),rgb(43, 84, 218));
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(0, 0, 2);
+    border: 1px double black;
+    text-shadow: 1px 1px 3px;    
+
+}
+
+#sub-head{
+    font-size: 14px;
+    color: red;
+    margin-top: -5px;
+    letter-spacing: 3px;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: none;
+    
+    
+}
+
+
+body{
+    background-color: #f5f5f5;
+}
+#body-personal{
+    background-color: rgb(208, 208, 208);
+}
+
+#person,#add{
+    font-size: 20px;
+    border: black 1px solid; 
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: rgb(0, 179, 255);
+    padding: 10px;
+    font-weight:bold;
+    text-shadow: 2px 2px 3px #2b2b2b;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    
+}
+
+.mytable ,#address-details,#qualification-details{
+    padding: 30px;
+    color: #0054db;
+    font-size: 16px;
+    font-family: segoe ui;
+    font-style: italic;
+    
+    
+}
+
+#body-personal ,.mytable ,#address-details,#qualification-details, td{
+    
+    padding: 5px;
+    padding-left: 55px;
+    
+}
+
+
+#dob{
+    
+    border: 2px solid rgb(69, 69, 69);
+    border-radius: 4px;
+    padding-top: 3px;
+    
+
+}
+
+#pre-add{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+input[type="text"]{
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: transparent;
+    border: #00b3ff solid 1px;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 0px 0px 3px #727272;
+    
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+
+select{
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+option{
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    padding: 3px;
+
+}
+#qualification-details{
+    margin-top: 10px;
+}
+
+#select-qualification{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#year{
+    outline: none;
+    border: #0054db solid 2px;
+    border-radius: 4px;
+}
+
+input[type="file"]{
+    color: rgb(0, 164, 0);
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 77%;
+    margin-top: 5%;
+    padding: 0px 22px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    /* cursor: pointer; */
+    cursor:pointer;
+    background: #ff0055;
+    color: white;
+  }
+  
+  .my-button:active{
+    animation-name: click-effect;
+    animation-duration: 0.1s;
+    animation-timing-function:ease-out;
+  }
+
+@keyframes click-effect{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.99);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.footer{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: none;
+    background-color: #1c8adb;
+    padding: 10% ;
+    
+}
+
+#nm{
+    color: wheat;
+    font-weight: lighter;
+    font-family: serif;
+}
